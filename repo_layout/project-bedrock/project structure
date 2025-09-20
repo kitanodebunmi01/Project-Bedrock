@@ -1,0 +1,16 @@
+Project-Bedrock/
+│── README.md
+│── repo_layout/
+│   ├── project-bedrock/
+│   │   ├── infra/
+│   │   │   ├── main.tf
+│   │   │   ├── variables.tf
+│   │   │   ├── outputs.tf
+│   │   │   └── provider.tf
+│   │   ├── k8s/
+│   │   │   ├── namespace.yaml
+│   │   │   ├── app-deployment.yaml
+│   │   │   └── service.yaml
+│   │   └── scripts/
+│   │       └── deploy.sh
+│   └── .gitignore
